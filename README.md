@@ -19,7 +19,7 @@ If this plugin is published in a Git repository marketplace, add that repository
 Load this checkout directly from disk:
 
 ```bash
-claude --plugin-dir /Users/wsmathers/superpowers-cowork
+claude --plugin-dir /path/to/superpowers-cowork
 ```
 
 Install-by-name only works after `superpowers-cowork` is available in one of your configured Claude plugin marketplaces.
