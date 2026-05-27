@@ -19,7 +19,6 @@ Once you understand the scope, propose 2-3 approaches with trade-offs:
 - **One question at a time.** Don't overwhelm with a wall of questions.
 - **Multiple choice when possible.** "Should the report be (A) a 2-page executive summary, (B) a detailed 10-page analysis, or (C) a slide deck?" is easier to answer than "What format do you want?"
 - **YAGNI.** If the human says "just a quick email," don't propose a multi-phase research project. Scale the methodology to the task.
-- **Fast-track when clear.** If the request already has enough detail, don't ask questions for the sake of asking. Summarize, confirm, move on.
 
 ## Anti-Pattern: Premature Execution
 
