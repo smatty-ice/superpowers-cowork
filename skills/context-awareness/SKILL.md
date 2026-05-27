@@ -13,3 +13,5 @@ Runs AFTER the brief is approved, chained by the command-skill. Scans only the c
 4. **Report in 2-3 sentences.** Example: "You have email and calendar connected. File storage is not connected, so I'll need you to share documents directly. Web search, file creation, and scheduled tasks are available."
 5. **Hard stop on critical gaps.** If a connector category the task fundamentally requires is unavailable, do not proceed. Say: "This task needs [category] but it's not connected. Options: (A) connect it, (B) provide the data manually, (C) continue with reduced scope." Wait for the human's choice before continuing.
 6. **Adjust the plan.** If gaps are minor or fallbacks exist, note them and proceed. Pass the environment summary to the `planning` skill so the plan accounts for what's actually available.
+
+**Handoff stop:** When the context report is complete and gaps are resolved (or waived), report the summary to the human. **Do not invoke the `planning` skill until the human acknowledges the context report and confirms they want to proceed.**
