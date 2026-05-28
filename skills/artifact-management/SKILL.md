@@ -5,7 +5,8 @@ description: "[INTERNAL ONLY] Track workflow files, version drafts, keep interme
 
 # Artifact Management
 
-**At the start of every workflow, before any file is created or modified:** Create a working directory: `superpowers-[topic]-[date]/`. All files go here. No exceptions.
+**At the start of every workflow, before any file is created or modified:** Create a working directory: `superpowers-[topic]-[date]/`.
+**Security Rule:** You must sanitize the `[topic]` variable before creating the directory. Strip out any slashes (`/`, `\`), `..`, or special characters to prevent path traversal. Keep only alphanumeric characters and hyphens. All files go into this sanitized directory. No exceptions.
 
 Then throughout the workflow:
 1. **Never overwrite originals.** If the human shared a file, copy it — never modify in place.
